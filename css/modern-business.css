@@ -1,0 +1,294 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+ /* Global Styles */
+
+h1{
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 2.5em;
+    color: #C0392B;
+    }
+
+p, h2, h3, h4 {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 500;
+}
+
+
+html,
+body {
+    height: 100%;
+}
+
+.panel-heading{
+    background-color: teal;
+    font-size: 4em;
+}
+
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.navbar-inverse .navbar-brand {
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 2.5em;
+}
+
+.day{
+    font-family: 'Raleway', sans-serif;
+    display: block;
+}
+
+.hour{
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 80%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    height: 100%;
+    background-position: 70% 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.prod_name{
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.prod_desc{
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+}
+
+.phone-number{
+    font-size: 1.3em;
+    text-align: left;
+    padding-top: 1em;
+}
+.sub-heading1{
+    text-align: right;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+    font-family: 'Raleway' sans-serif;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.navbar-toggle{
+    background-color:#C0392B;
+    border: none;
+}
+
+
+.icon-bar{
+    background-color: black;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, 
+.navbar-inverse .navbar-nav>li>a:focus{
+    color: #049372;
+    text-align: center;
+    background-color: white;
+}
+
+.navbar-inverse{
+    background-color: #C0392B;
+    border: none;
+}
+
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+/* Responsive Styles */
+
+.embed-container { 
+    position: relative;
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+    height: 350px; 
+} 
+
+td>p {
+    font-size: 0.75em;
+    color: gray;
+    font-weight: 100;
+}
+
+td{
+    font-size: 1.5em;
+    color: black;
+    text-align: left;
+}
+
+.social-media{
+    margin:auto;
+    text-align: center;
+    color: #333333;
+}
+
+.social-media:hover{
+    color: #C0392B;
+}
+
+.hiring{    
+    font-size: 1.5em;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 500;
+}
+
+.application{
+    margin: auto;
+    text-align: center;
+    color: #333333;
+    width: 100%;
+}
+
+.application:hover{
+    color: #C0392B;
+}
+
+
+.dropdown-menu>li{
+    color: white;
+    text-align: center;
+    background-color: #C0392B;
+    font-family: 'Raleway', sans-serif;
+}
+
+.dropdown-menu>li>a{
+    color:white;
+}
+.dropdown-menu>li>a:hover, 
+.dropdown-menu>li>a:focus,
+.active{
+    color: #049372;
+    text-align: center;
+    background-color: white;
+}
+
+
+.embed-container iframe, .embed-container object, 
+.embed-container .embed { 
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    height: 100%; }
+
+    @media(max-width:991px) {
+        td{
+            font-size: 1em;
+            color: black;
+            text-align: center: 
+        }
+    }
+
+    @media(max-width:767px) {
+
+        p, h2, h3, h4 {
+            font-family: 'Oxygen', sans-serif;
+            font-weight: 500;
+        }
+
+        h1{
+            font-family: 'Pacifico', cursive;
+            color: white;
+            font-size: 2em;
+            color: #C0392B;
+        }
+
+        .day{
+            font-family: 'Raleway', sans-serif;
+            font-size: 1em;
+            display: block;
+        }
+
+        .hour{
+            font-family: 'Raleway', sans-serif;
+            font-size: 0.1em;
+        }
+
+        td{
+            font-size: 1.2em;
+            color: black;
+            text-align: center: 
+        }
+
+        .img-portfolio {
+            margin-bottom: 15px;
+        }
+
+        header.carousel .carousel {
+            height: 100%;
+        }
+
+        header.carousel {
+            height: 60%;
+        }
+
+        header.carousel .item,
+        header.carousel .item.active,
+        header.carousel .carousel-inner {
+            height: 100%;
+        }
+
+        header.carousel .fill {
+            height: 100%;
+            background-size: cover;
+            background-position: left;
+        }
+
+        .sub-heading{
+            text-align: center;
+        }
+        .phone-number{
+            font-size: 1.2em;
+            text-align: center;
+            margin-top: -1em;
+        }
+        .navbar-inverse .navbar-brand {
+            font-family: 'Pacifico', cursive;
+            color: white;
+            font-size: 1.5em;
+        }
+        #bs-example-navbar-collapse-1{
+            background-color: #049372;
+        }
+        .hiring{
+            font-size: 1em;
+            font-family: 'Oxygen', sans-serif;
+            font-weight: 500;
+        }
+
+        .page-header{
+            font-family: 'Pacifico', cursive;
+            font-size: 2em;
+        }
+
+    }
